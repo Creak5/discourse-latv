@@ -1,0 +1,5 @@
+lv:
+  js:
+    docker:
+      upgrade: "Jūsu Discourse instalācija ir novecojusi."
+      perform_upgrade: "Spied šeit lai atjauninātu."
