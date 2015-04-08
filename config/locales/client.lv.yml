@@ -94,7 +94,7 @@ lv:
           other: "%{count} dienas atpakaļ"
     share:
       topic: 'padalies ar linku šajā tēmā'
-      post: 'raksti #%{postNumber}'
+      post: 'raksts #%{postNumber}'
       close: 'aizvērt'
       twitter: 'padalies ar šo linku Twitter'
       facebook: 'padalies ar šo linku Facebook'
@@ -111,112 +111,112 @@ lv:
     not_implemented: "That feature hasn't been implemented yet, sorry!"
     no_value: "No"
     yes_value: "Yes"
-    generic_error: "Sorry, an error has occurred."
-    generic_error_with_reason: "An error occurred: %{error}"
+    generic_error: "Atvaino, notikusi kļūda."
+    generic_error_with_reason: "Notikusi kļūda: %{error}"
     sign_up: "Pietiekties"
     log_in: "Pieslēgties"
     age: "Vecums"
-    last_post: "Last Post"
-    joined: "Joined"
-    admin_title: "Admin"
+    last_post: "Pēdējais ieraksts"
+    joined: "Pievienojies"
+    admin_title: "Administrātors"
     flags_title: "Flags"
-    show_more: "show more"
-    show_help: "help"
-    links: "Links"
-    links_lowercase: "links"
+    show_more: "parādīt vairāk"
+    show_help: "palīdzība"
+    links: "Adreses"
+    links_lowercase: "adreses"
     faq: "FAQ"
     guidelines: "Guidelines"
     privacy_policy: "Privacy Policy"
     privacy: "Privacy"
     terms_of_service: "Terms of Service"
-    mobile_view: "Mobile View"
-    desktop_view: "Desktop View"
-    you: "You"
-    or: "or"
-    now: "just now"
-    read_more: 'read more'
-    more: "More"
-    less: "Less"
-    never: "never"
-    daily: "daily"
-    weekly: "weekly"
-    every_two_weeks: "every two weeks"
-    every_three_days: "every three days"
-    max_of_count: "max of {{count}}"
+    mobile_view: "Mobīlais izkārtojums"
+    desktop_view: "Parastais izkārtojums"
+    you: "Tu"
+    or: "vai"
+    now: "tikko"
+    read_more: 'lasīt vairāk'
+    more: "Vairāk"
+    less: "Mazāk"
+    never: "nekad"
+    daily: "ik dienu"
+    weekly: "ik nedēļu"
+    every_two_weeks: "ik pēc divām nedēļām"
+    every_three_days: "ik pēc trim dienām"
+    max_of_count: "ne vairāk par {{count}}"
     character_count:
-      one: "{{count}} character"
-      other: "{{count}} characters"
+      one: "{{count}} simbols"
+      other: "{{count}} simboli"
     suggested_topics:
-      title: "Suggested Topics"
+      title: "Ieteicamās tēmas"
 
     about:
-      simple_title: "About"
-      title: "About %{title}"
-      stats: "Site Statistics"
-      our_admins: "Our Admins"
-      our_moderators: "Our Moderators"
+      simple_title: "Par mums"
+      title: "Par %{title}"
+      stats: "Lapas Statistika"
+      our_admins: "Mūsu Administrātori"
+      our_moderators: "Mūsu Moderātori"
       stat:
-        all_time: "All Time"
-        last_7_days: "Last 7 Days"
-        last_30_days: "Last 30 Days"
-      like_count: "Likes"
-      topic_count: "Topics"
-      post_count: "Posts"
-      user_count: "New Users"
-      active_user_count: "Active Users"
-      contact: "Contact Us"
-      contact_info: "In the event of a critical issue or urgent matter affecting this site, please contact us at %{contact_info}."
+        all_time: "Visu laiku"
+        last_7_days: "Pēdējo 7 Dienu"
+        last_30_days: "Pēdējo 30 Dienu"
+      like_count: "Patīk"
+      topic_count: "Tēmas"
+      post_count: "Ieraksti"
+      user_count: "Jauni Lietotāji"
+      active_user_count: "Aktīvi Lietotāji"
+      contact: "Sazinies ar mums"
+      contact_info: "Neparedzētas vai ārkārtas situācijas gadījumā sazinies ar mums - %{contact_info}."
 
     bookmarked:
-      title: "Bookmark"
-      clear_bookmarks: "Clear Bookmarks"
+      title: "Grāmatzīmes"
+      clear_bookmarks: "Iztīrīt grāmatzīmes"
       help:
-        bookmark: "Click to bookmark the first post on this topic"
-        unbookmark: "Click to remove all bookmarks in this topic"
+        bookmark: "Spied lai pievienotu tēmas pirmo ierakstu grāmatzīmēm"
+        unbookmark: "Spied lai noņemtu visas grāmatzīmes šajā tēmā"
 
     bookmarks:
-      not_logged_in: "sorry, you must be logged in to bookmark posts"
-      created: "you've bookmarked this post"
-      not_bookmarked: "you've read this post; click to bookmark it"
-      last_read: "this is the last post you've read; click to bookmark it"
-      remove: "Remove Bookmark"
-      confirm_clear: "Are you sure you want to clear all the bookmarks from this topic?"
+      not_logged_in: "atvaino tev jāpieslēdzas lai veidotu grāmatzīmes"
+      created: "tu pievienoji šo ierakstu grāmatzīmēm"
+      not_bookmarked: "tu jau izlasīji šo ierakstu; spied lai pievienotu grāmatzīmēm"
+      last_read: "šis ir tavs pēdējais lasītais ieraksts; spied lai pievienotu grāmatzīmēm"
+      remove: "Noņemt Grāmatzīmi"
+      confirm_clear: "Tu esi pārliecināts, ka gribi noņemt visas grāmatzīmes šajā tēmā?"
 
     topic_count_latest:
-      one: "{{count}} new or updated topic."
-      other: "{{count}} new or updated topics."
+      one: "{{count}} jauna vai papildināta tēma."
+      other: "{{count}} jaunas vai papildinātas tēmas."
     topic_count_unread:
-      one: "{{count}} unread topic."
-      other: "{{count}} unread topics."
+      one: "{{count}} nelasīta tēma."
+      other: "{{count}} nelasītas tēmas."
     topic_count_new:
-      one: "{{count}} new topic."
-      other: "{{count}} new topics."
-    click_to_show: "Click to show."
-    preview: "preview"
-    cancel: "cancel"
+      one: "{{count}} jauna tēma."
+      other: "{{count}} jaunas tēmas."
+    click_to_show: "Spied lai apskatītu."
+    preview: "priekšskats"
+    cancel: "atcelt"
 
-    save: "Save Changes"
-    saving: "Saving..."
-    saved: "Saved!"
+    save: "Saglabāt Izmaiņas"
+    saving: "Saglabā..."
+    saved: "Saglabāts!"
 
-    upload: "Upload"
-    uploading: "Uploading..."
-    uploaded: "Uploaded!"
+    upload: "Augšupielādēt"
+    uploading: "Augšupielādē..."
+    uploaded: "Augšupielādēts!"
 
-    enable: "Enable"
-    disable: "Disable"
+    enable: "Ieslēgt"
+    disable: "Izslēgt"
     undo: "Undo"
-    revert: "Revert"
-    failed: "Failed"
+    revert: "Atgriezt"
+    failed: "Neizdevās"
 
     banner:
-      close: "Dismiss this banner."
+      close: "Noņemt šo baneri."
 
     choose_topic:
-      none_found: "No topics found."
+      none_found: "Nav atrasta neviena tēma."
       title:
-        search: "Search for a Topic by name, url or id:"
-        placeholder: "type the topic title here"
+        search: "Meklē tēmu pēc vārda, url vai id:"
+        placeholder: "Ievadi šeit tēmas virsrakstu"
 
     user_action:
       user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> posted <a href='{{topicUrl}}'>the topic</a>"
@@ -976,33 +976,33 @@ lv:
           description: "You will never be notified of anything about this topic, and it will not appear on your unread tab."
 
       actions:
-        recover: "Un-Delete Topic"
-        delete: "Delete Topic"
-        open: "Open Topic"
-        close: "Close Topic"
-        auto_close: "Auto Close"
-        make_banner: "Banner Topic"
-        remove_banner: "Remove Banner Topic"
-        pin: "Pin Topic"
-        unpin: "Un-Pin Topic"
-        pin_globally: "Pin Topic Globally"
-        unarchive: "Unarchive Topic"
-        archive: "Archive Topic"
-        invisible: "Make Unlisted"
-        visible: "Make Listed"
-        reset_read: "Reset Read Data"
-        multi_select: "Select Posts"
+        recover: "Atcelt Tēmas Dzēšanu"
+        delete: "Izdzēst Tēmu"
+        open: "Atvērt Tēmu"
+        close: "Aizvērt Tēmu"
+        auto_close: "Automātiskā Aizvēršana"
+        make_banner: "Banner Tēma"
+        remove_banner: "Izņemt Banera tēmu"
+        pin: "Piespraust Tēmu"
+        unpin: "Atcelt Tēmas Piespraušanu"
+        pin_globally: "Globāli Piespraust Tēmu"
+        unarchive: "Atarhīvēt Tēmu"
+        archive: "Arhivēt Tēmu"
+        invisible: "Padarīt Neredzamu"
+        visible: "Padarīt Redzamu"
+        reset_read: "Atiestātīt Izlasītos"
+        multi_select: "Izvēlies Ierakstus"
 
       reply:
-        title: 'Reply'
+        title: 'Atbildēt'
         help: 'begin composing a reply to this topic'
 
       clear_pin:
-        title: "Clear pin"
+        title: "Noņemt Piespraudumu"
         help: "Clear the pinned status of this topic so it no longer appears at the top of your topic list"
 
       share:
-        title: 'Share'
+        title: 'Dalīties'
         help: 'share a link to this topic'
 
       flag_topic:
@@ -1468,13 +1468,13 @@ lv:
         title: "Jaunākās"
         help: "tēmas ar jaunākajiem ierakstiem"
       hot:
-        title: "Hot"
+        title: "Kartākās"
         help: "a selection of the hottest topics"
       read:
-        title: "Read"
+        title: "Izlasītās"
         help: "topics you've read, in the order that you last read them"
       search:
-        title: "Search"
+        title: "Meklēt"
         help: "search all topics"
       categories:
         title: "Kategorijas"
@@ -1497,12 +1497,12 @@ lv:
           other: 6ef788ca58c41ba2efc880c0c0df1382_tr
         lower_title: "new"
         title:
-          zero: "New"
-          one: "New (1)"
-          other: "New ({{count}})"
+          zero: "Jaunie"
+          one: "Jauns (1)"
+          other: "Jauni ({{count}})"
         help: "topics created in the last few days"
       posted:
-        title: "My Posts"
+        title: "Mani ieraksti"
         help: "topics you have posted in"
       bookmarks:
         title: "Bookmarks"
@@ -1517,13 +1517,13 @@ lv:
         title: "Labākās"
         help: "the most active topics in the last year, month, week or day"
         yearly:
-          title: "Top Yearly"
+          title: "Gada Labākie"
         monthly:
-          title: "Top Monthly"
+          title: "Mēneša Labākie"
         weekly:
-          title: "Top Weekly"
+          title: "Nedēļas Labākie"
         daily:
-          title: "Top Daily"
+          title: "Dienas Labākie"
         all: "All Time"
         this_year: "This year"
         this_month: "This month"
