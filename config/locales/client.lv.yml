@@ -202,12 +202,12 @@ lv:
     upload: "Augšupielādēt"
     uploading: "Augšupielādē..."
     uploaded: "Augšupielādēts!"
-
-    enable: "Ieslēgt"
-    disable: "Izslēgt"
+# Foruma krāsu izvēlne
+    enable: "Enable"
+    disable: "Disable"
     undo: "Undo"
-    revert: "Atgriezt"
-    failed: "Neizdevās"
+    revert: "Revert"
+    failed: "Failed"
 
     banner:
       close: "Noņemt šo baneri."
@@ -236,52 +236,52 @@ lv:
       sent_by_you: "Sent by <a href='{{userUrl}}'>you</a>"
 
     directory:
-      filter_name: "filter by username"
-      title: "Users"
-      likes_given: "Given"
-      likes_received: "Received"
-      topics_entered: "Entered"
-      topics_entered_long: "Topics Entered"
-      time_read: "Time Read"
-      topic_count: "Topics"
-      topic_count_long: "Topics Created"
+      filter_name: "atlasīt pēc lietotājvārdiem"
+      title: "Lietotājs"
+      likes_given: "Iedevis"
+      likes_received: "Saņēmis"
+      topics_entered: "Atvērts"
+      topics_entered_long: "Atvērtās tēmas"
+      time_read: "Lasīšanas laiks"
+      topic_count: "Tēmas"
+      topic_count_long: "Izviedotas Tēmas"
       post_count: "Replies"
-      post_count_long: "Replies Posted"
-      no_results: "No results were found."
-      days_visited: "Visits"
+      post_count_long: "Veiktās atbildes"
+      no_results: "Nekas netika atrasts."
+      days_visited: "Apmeklējumi"
       days_visited_long: "Days Visited"
-      posts_read: "Read"
-      posts_read_long: "Posts Read"
+      posts_read: "Izlasīti"
+      posts_read_long: "Izlasīti ieraksti"
       total_rows:
-        one: "1 user"
-        other: "%{count} users"
+        one: "1 lietotājs"
+        other: "%{count} lietotāji"
     groups:
-      visible: "Group is visible to all users"
+      visible: "Grupa redzama visiem lietotājie."
       title:
-        one: "group"
-        other: "groups"
-      members: "Members"
-      posts: "Posts"
+        one: "grupa"
+        other: "grupas"
+      members: "Locekļi"
+      posts: "Ieraksti"
       alias_levels:
-        title: "Who can use this group as an alias?"
-        nobody: "Nobody"
-        only_admins: "Only admins"
-        mods_and_admins: "Only moderators and Admins"
-        members_mods_and_admins: "Only group members, moderators and admins"
-        everyone: "Everyone"
+        title: "Kurš var izmantot šo grupu kā segvārdu?"
+        nobody: "Neviens"
+        only_admins: "Tikai admini"
+        mods_and_admins: "Tikai moderātori un admini"
+        members_mods_and_admins: "Tikai grupas biedri, moderātori un admini"
+        everyone: "Visi"
 
     user_action_groups:
-      "1": "Likes Given"
-      "2": "Likes Received"
-      "3": "Bookmarks"
-      "4": "Topics"
-      "5": "Replies"
-      "6": "Responses"
-      "7": "Mentions"
-      "9": "Quotes"
-      "10": "Starred"
-      "11": "Edits"
-      "12": "Sent Items"
+      "1": "Iedoti "patīk""
+      "2": ""Patīk" saņemti"
+      "3": "Grāmatzīmes"
+      "4": "Tēmas"
+      "5": "Ieraksti"
+      "6": "Atbildes"
+      "7": "Pieminējumi"
+      "9": "Citāti"
+      "10": "Izceltie"
+      "11": "Labojumi"
+      "12": "Nosūtītie priekšmeti"
       "13": "Inbox"
 
     categories:
@@ -375,9 +375,9 @@ lv:
         warnings_received: "warnings"
 
       messages:
-        all: "All"
-        mine: "Mine"
-        unread: "Unread"
+        all: "Visas"
+        mine: "Manas"
+        unread: "Nelasītās"
 
       change_password:
         success: "(email sent)"
@@ -387,17 +387,17 @@ lv:
         set_password: "Set Password"
 
       change_about:
-        title: "Change About Me"
+        title: "Izmainīt "par mani""
 
       change_username:
-        title: "Change Username"
+        title: "Mainīt Lietotājvārdu"
         confirm: "If you change your username, all prior quotes of your posts and @name mentions will be broken. Are you absolutely sure you want to?"
         taken: "Sorry, that username is taken."
         error: "There was an error changing your username."
         invalid: "That username is invalid. It must only include numbers and letters"
 
       change_email:
-        title: "Change Email"
+        title: "Mainīt e-pastu"
         taken: "Sorry, that email is not available."
         error: "There was an error changing your email. Perhaps that address is already in use?"
         success: "We've sent an email to that address. Please follow the confirmation instructions."
@@ -414,15 +414,15 @@ lv:
         image_is_not_a_square: "Warning: we've cropped your image; width and height were not equal."
 
       change_profile_background:
-        title: "Profile Background"
+        title: "Profila Fons"
         instructions: "Profile backgrounds will be centered and have a default width of 850px."
 
       change_card_background:
-        title: "User Card Background"
+        title: "Lietotāja Kartes Fons"
         instructions: "Background images will be centered and have a default width of 590px."
 
       email:
-        title: "Email"
+        title: "E-pasts"
         instructions: "Never shown to the public"
         ok: "We will email you to confirm"
         invalid: "Please enter a valid email address"
@@ -433,7 +433,7 @@ lv:
           other: "We'll only email you if we haven't seen you in the last {{count}} minutes."
 
       name:
-        title: "Name"
+        title: "Vārds"
         instructions: "Your full name (optional)"
         instructions_required: "Your full name"
         too_short: "Your name is too short"
