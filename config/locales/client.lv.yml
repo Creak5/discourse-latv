@@ -23,23 +23,23 @@ lv:
           format: '%n %u'
           units:
             byte:
-              one: Byte
-              other: Bytes
+              one: Baits
+              other: Baiti
             gb: GB
             kb: KB
             mb: MB
             tb: TB
     dates:
       time: "h:mm a"
-      long_no_year: "MMM D h:mm a"
-      long_no_year_no_time: "MMM D"
-      long_with_year: "MMM D, YYYY h:mm a"
-      long_with_year_no_time: "MMM D, YYYY"
-      long_date_with_year: "MMM D, 'YY LT"
-      long_date_without_year: "MMM D, LT"
-      long_date_with_year_without_time: "MMM D, 'YY"
-      long_date_without_year_with_linebreak: "MMM D <br/>LT"
-      long_date_with_year_with_linebreak: "MMM D, 'YY <br/>LT"
+      long_no_year: "D MMM h:mm a"
+      long_no_year_no_time: "D MMM"
+      long_with_year: "D MMM , YYYY h:mm a"
+      long_with_year_no_time: "D MMM, YYYY"
+      long_date_with_year: "D MMM, 'YY LT"
+      long_date_without_year: "D MMM, LT"
+      long_date_with_year_without_time: "D MMM, 'YY"
+      long_date_without_year_with_linebreak: "D MMM <br/>LT"
+      long_date_with_year_with_linebreak: "D MMM, 'YY <br/>LT"
       tiny:
         half_a_minute: "< 1m"
         less_than_x_seconds:
@@ -55,53 +55,53 @@ lv:
           one: "1m"
           other: "%{count}m"
         about_x_hours:
-          one: "1h"
-          other: "%{count}h"
+          one: "1st"
+          other: "%{count}st"
         x_days:
           one: "1d"
           other: "%{count}d"
         about_x_years:
-          one: "1y"
-          other: "%{count}y"
+          one: "1g"
+          other: "%{count}g"
         over_x_years:
-          one: "> 1y"
-          other: "> %{count}y"
+          one: "> 1g"
+          other: "> %{count}g"
         almost_x_years:
-          one: "1y"
-          other: "%{count}y"
-        date_month: "MMM D"
+          one: "1g"
+          other: "%{count}g"
+        date_month: "D MMM"
         date_year: "MMM 'YY"
       medium:
         x_minutes:
           one: "1 min"
-          other: "%{count} mins"
+          other: "%{count} min"
         x_hours:
-          one: "1 hour"
-          other: "%{count} hours"
+          one: "1 stunda"
+          other: "%{count} stundas"
         x_days:
-          one: "1 day"
-          other: "%{count} days"
-        date_year: "MMM D, 'YY"
+          one: "1 diena"
+          other: "%{count} dienas"
+        date_year: "D MMM, 'YY"
       medium_with_ago:
         x_minutes:
-          one: "1 min ago"
-          other: "%{count} mins ago"
+          one: "1 min atpakaļ"
+          other: "%{count} min atpakaļ"
         x_hours:
-          one: "1 hour ago"
-          other: "%{count} hours ago"
+          one: "1 stundu atpakaļ"
+          other: "%{count} stundas atpakaļ"
         x_days:
-          one: "1 day ago"
-          other: "%{count} days ago"
+          one: "1 dienu atpakaļ"
+          other: "%{count} dienas atpakaļ"
     share:
-      topic: 'share a link to this topic'
-      post: 'post #%{postNumber}'
-      close: 'close'
-      twitter: 'share this link on Twitter'
-      facebook: 'share this link on Facebook'
-      google+: 'share this link on Google+'
-      email: 'send this link in an email'
+      topic: 'padalies ar linku šajā tēmā'
+      post: 'raksti #%{postNumber}'
+      close: 'aizvērt'
+      twitter: 'padalies ar šo linku Twitter'
+      facebook: 'padalies ar šo linku Facebook'
+      google+: 'padalies ar šo linku Google+'
+      email: 'nosūti šo linku pa e-pastu'
 
-    topic_admin_menu: "topic admin actions"
+    topic_admin_menu: "tēmas admin iespējas"
 
     emails_are_disabled: "All outgoing email has been globally disabled by an administrator. No email notifications of any kind will be sent."
 
@@ -113,9 +113,9 @@ lv:
     yes_value: "Yes"
     generic_error: "Sorry, an error has occurred."
     generic_error_with_reason: "An error occurred: %{error}"
-    sign_up: "Sign Up"
-    log_in: "Log In"
-    age: "Age"
+    sign_up: "Pietiekties"
+    log_in: "Pieslēgties"
+    age: "Vecums"
     last_post: "Last Post"
     joined: "Joined"
     admin_title: "Admin"
@@ -326,8 +326,8 @@ lv:
       edit: "Rediģēt iestatījumus"
       download_archive: "Lejupielādēt Savus Ierakstus"
       new_private_message: "Jauna Vēstule"
-      private_message: "Ziņa"
-      private_messages: "Messages"
+      private_message: "Vēstule"
+      private_messages: "Vēstule"
       activity_stream: "Aktivitāte"
       preferences: "Iestatījumi"
       bookmarks: "Grāmatzīmes"
@@ -1465,8 +1465,8 @@ lv:
       with_topics: "%{filter} topics"
       with_category: "%{filter} %{category} topics"
       latest:
-        title: "Latest"
-        help: "topics with recent posts"
+        title: "Jaunākās"
+        help: "tēmas ar jaunākajiem ierakstiem"
       hot:
         title: "Hot"
         help: "a selection of the hottest topics"
@@ -1477,14 +1477,14 @@ lv:
         title: "Search"
         help: "search all topics"
       categories:
-        title: "Categories"
+        title: "Kategorijas"
         title_in: "Category - {{categoryName}}"
         help: "all topics grouped by category"
       unread:
         title:
-          zero: "Unread"
-          one: "Unread (1)"
-          other: "Unread ({{count}})"
+          zero: "Nelasīts"
+          one: "Nelasīta (1)"
+          other: "Nelasītas ({{count}})"
         help: "topics you are currently watching or tracking with unread posts"
         lower_title_with_count:
           zero: ""
@@ -1514,7 +1514,7 @@ lv:
           other: "{{categoryName}} ({{count}})"
         help: "latest topics in the {{categoryName}} category"
       top:
-        title: "Top"
+        title: "Labākās"
         help: "the most active topics in the last year, month, week or day"
         yearly:
           title: "Top Yearly"
