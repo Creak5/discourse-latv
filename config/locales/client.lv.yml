@@ -118,7 +118,7 @@ lv:
     age: "Vecums"
     last_post: "Pēdējais ieraksts"
     joined: "Pievienojies"
-    admin_title: "Administrātors"
+    admin_title: "Administrātoru panelis"
     flags_title: "Flags"
     show_more: "parādīt vairāk"
     show_help: "palīdzība"
@@ -285,14 +285,14 @@ lv:
       "13": "Inbox"
 
     categories:
-      all: "visas kategorijas"
+      all: "Visas Kategorijas"
       all_subcategories: "visas"
       no_subcategory: "nav"
       category: "Kategorija"
       posts: "Ieraksti"
-      topics: "'Tēmas"
-      latest: "Jaunākās"
-      latest_by: "jaunākās pēc"
+      topics: "Tēmas"
+      latest: "Jaunākie"
+      latest_by: "Jaunākie pēc"
       toggle_ordering: "mainīt saraksta kārtošanu"
       subcategories: "Apakškategorijas"
       topic_stats: "Jauno tēmu skaits."
@@ -865,10 +865,10 @@ lv:
 
     topic:
       filter_to: "{{post_count}} posts in topic"
-      create: 'New Topic'
-      create_long: 'Create a new Topic'
+      create: 'Jauna Tēma'
+      create_long: 'Izveidot jaunu tēmu'
       private_message: 'Start a message'
-      list: 'Topics'
+      list: 'Tēmas'
       new: 'new topic'
       unread: 'unread'
       new_topics:
