@@ -1440,26 +1440,26 @@ lv:
         med {with a very high like to post ratio}
         high {with an extremely high like to post ratio}
         other {}}
-    original_post: "Original Post"
-    views: "Views"
-    views_lowercase: "views"
-    replies: "Replies"
-    views_long: "this topic has been viewed {{number}} times"
-    activity: "Activity"
-    likes: "Likes"
-    likes_lowercase: "likes"
-    likes_long: "there are {{number}} likes in this topic"
-    users: "Users"
-    users_lowercase: "users"
-    category_title: "Category"
-    history: "History"
-    changed_by: "by {{author}}"
+    original_post: "Oriģinālais Ieraksts"
+    views: "Skatījumi"
+    views_lowercase: "skatījumi"
+    replies: "Atbildes"
+    views_long: "šī tēma ir apskatīta {{number}} reizes"
+    activity: "Aktivitāte"
+    likes: "Patīk"
+    likes_lowercase: "patīk"
+    likes_long: "šajā tēmā ir {{number}} patīk"
+    users: "Lietotāji"
+    users_lowercase: "lietotāji"
+    category_title: "Kategorija"
+    history: "Vēsture"
+    changed_by: " {{author}}"
 
     raw_email:
       title: "Raw Email"
       not_available: "Not available!"
 
-    categories_list: "Categories List"
+    categories_list: "Kategoriju Saraksts"
 
     filters:
       with_topics: "%{filter} topics"
@@ -1468,7 +1468,7 @@ lv:
         title: "Jaunākās"
         help: "tēmas ar jaunākajiem ierakstiem"
       hot:
-        title: "Kartākās"
+        title: "Karstākās"
         help: "a selection of the hottest topics"
       read:
         title: "Izlasītās"
@@ -1482,9 +1482,9 @@ lv:
         help: "all topics grouped by category"
       unread:
         title:
-          zero: "Nelasīts"
-          one: "Nelasīta (1)"
-          other: "Nelasītas ({{count}})"
+          zero: "Neizlasītie Ieraksti"
+          one: "Neizlasīts (1)"
+          other: "Neizlasīti ({{count}})"
         help: "topics you are currently watching or tracking with unread posts"
         lower_title_with_count:
           zero: ""
@@ -1497,22 +1497,22 @@ lv:
           other: 6ef788ca58c41ba2efc880c0c0df1382_tr
         lower_title: "new"
         title:
-          zero: "Jaunie"
-          one: "Jauns (1)"
-          other: "Jauni ({{count}})"
+          zero: "Jaunās Tēmas"
+          one: "(1) Jauna Tēma"
+          other: "({{count}}) Jaunas Tēmas"
         help: "topics created in the last few days"
       posted:
         title: "Mani ieraksti"
         help: "topics you have posted in"
       bookmarks:
-        title: "Bookmarks"
+        title: "Grāmatzīmes"
         help: "topics you have bookmarked"
       category:
         title:
           zero: "{{categoryName}}"
           one: "{{categoryName}} (1)"
           other: "{{categoryName}} ({{count}})"
-        help: "latest topics in the {{categoryName}} category"
+        help: "jaunākā tēma {{categoryName}} kategorijā"
       top:
         title: "Labākās"
         help: "the most active topics in the last year, month, week or day"
@@ -1524,11 +1524,11 @@ lv:
           title: "Nedēļas Labākie"
         daily:
           title: "Dienas Labākie"
-        all: "All Time"
-        this_year: "This year"
-        this_month: "This month"
-        this_week: "This week"
-        today: "Today"
+        all: "Visi"
+        this_year: "Šī gada"
+        this_month: "Šī mēneša"
+        this_week: "Šīs nedēļas"
+        today: "Šodienas"
         other_periods: "see more top topics"
 
     browser_update: 'Unfortunately, <a href="http://www.discourse.org/faq/#browser">your browser is too old to work on this site</a>. Please <a href="http://browsehappy.com">upgrade your browser</a>.'
