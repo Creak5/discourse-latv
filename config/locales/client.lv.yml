@@ -1524,7 +1524,7 @@ lv:
           title: "Nedēļas Labākie"
         daily:
           title: "Dienas Labākie"
-        all: "Visi"
+        all_time: "Visi"
         this_year: "Šī gada"
         this_month: "Šī mēneša"
         this_week: "Šīs nedēļas"
