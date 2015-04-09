@@ -159,7 +159,7 @@ lv:
         all_time: "Visu laiku"
         last_7_days: "Pēdējo 7 Dienu"
         last_30_days: "Pēdējo 30 Dienu"
-      like_count: "Patīk"
+      like_count: "Plusiņi"
       topic_count: "Tēmas"
       post_count: "Ieraksti"
       user_count: "Jauni Lietotāji"
@@ -271,8 +271,8 @@ lv:
         everyone: "Visi"
 
     user_action_groups:
-      "1": "Iedoti "patīk""
-      "2": ""Patīk" saņemti"
+      "1": "Iedoti plusiņi"
+      "2": "Saņemti plusiņi"
       "3": "Grāmatzīmes"
       "4": "Tēmas"
       "5": "Ieraksti"
@@ -387,7 +387,7 @@ lv:
         set_password: "Set Password"
 
       change_about:
-        title: "Izmainīt "par mani""
+        title: "Izmainīt 'Par mani'"
 
       change_username:
         title: "Mainīt Lietotājvārdu"
@@ -1446,9 +1446,9 @@ lv:
     replies: "Atbildes"
     views_long: "šī tēma ir apskatīta {{number}} reizes"
     activity: "Aktivitāte"
-    likes: "Patīk"
-    likes_lowercase: "patīk"
-    likes_long: "šajā tēmā ir {{number}} patīk"
+    likes: "Plusiņi"
+    likes_lowercase: "plusiņi"
+    likes_long: "šajā tēmā ir {{number}} plusiņu"
     users: "Lietotāji"
     users_lowercase: "lietotāji"
     category_title: "Kategorija"
