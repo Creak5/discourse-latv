@@ -19,11 +19,11 @@ lv:
   js:
     poll:
       voteCount:
+        zero: "%{count} balsis"
         one: "1 balss"
         other: "%{count} balsis"
       results:
-        show: Parādīt Rezultātus
+        show: Rādīt Rezultātus
         hide: Paslēpt Rezultātus
-
-      close_poll: "Aizvērt Sarakstu"
-      open_poll: "Atvērt Sarakstu"
+      close_poll: "Aizvērt Aptauju"
+      open_poll: "Atvērt Aptauju"

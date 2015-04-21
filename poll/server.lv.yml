@@ -19,10 +19,11 @@ lv:
   activerecord:
     attributes:
       post:
-        poll_options: "Balsošanas opcijas"
+        poll_options: "Aptaujas iestatījumi"
   poll:
-    must_contain_poll_options: "šeit jāievada balsošanas iestatījumi"
-    cannot_have_modified_options: "rediģēšana iespējama tikai pirmās piecas minūtes. Sazinies ar moderātoru, ja nepieciešamas izmaiņas."
-    cannot_add_or_remove_options: "iespējama tikai rediģēšana, pievienot vai dzēst nevar. Ja vēlies pievienot vai dzēst opcijas, slēdz šo tēmu un izveido jaunu."
-    prefix: "Balsošana"
-    closed_prefix: "AIzvērta Balsošana"
+    must_contain_poll_options: "jāsatur saraksts ar aptaujas iespējām"
+    cannot_have_modified_options: "nevar tikt mainīts pēc pirmajām piecām minūtēm. Sazinieties ar moderatoru, ja jums ir nepieciešams tos mainīt."
+    cannot_add_or_remove_options: "var tikai rediģēt, nevis pievienot vai noņemt. Ja jums ir nepieciešams pievienot vai noņemt iespējas jums vajadzētu aizslēgt šo tēmu un izveidot jaunu."
+    prefix: "Aptauja"
+    closed_prefix: "Aizvērta Aptauja"
+
