@@ -93,7 +93,7 @@ lv:
           one: "1 dienu atpakaļ"
           other: "%{count} dienas atpakaļ"
     share:
-      topic: 'padalies ar linku šajā tēmā'
+      topic: 'padalies ar šīs tēmas linku'
       post: 'raksts #%{postNumber}'
       close: 'aizvērt'
       twitter: 'padalies ar šo linku Twitter'
@@ -237,7 +237,7 @@ lv:
 
     directory:
       filter_name: "atlasīt pēc lietotājvārdiem"
-      title: "Lietotājs"
+      title: "Lietotāji"
       likes_given: "Iedevis"
       likes_received: "Saņēmis"
       topics_entered: "Atvērts"
@@ -333,7 +333,7 @@ lv:
       bookmarks: "Grāmatzīmes"
       bio: "Par mani"
       invited_by: "Ielūdza"
-      trust_level: "Uzticīdzbas Līmenis"
+      trust_level: "Uzticības Līmenis"
       notifications: "Paziņojumi"
       dismiss_notifications: "Iezīmēt visu kā izlasītus"
       dismiss_notifications_tooltip: "Iezīmēt visus nelasītos paziņojumus kā zilasītus"
@@ -981,17 +981,24 @@ lv:
         open: "Atvērt Tēmu"
         close: "Aizvērt Tēmu"
         auto_close: "Automātiskā Aizvēršana"
-        make_banner: "Banner Tēma"
-        remove_banner: "Izņemt Banera tēmu"
+        #make_banner: "Banner Tēma"
+        #remove_banner: "Izņemt Banera tēmu"
         pin: "Piespraust Tēmu"
-        unpin: "Atcelt Tēmas Piespraušanu"
-        pin_globally: "Globāli Piespraust Tēmu"
+        #unpin: "Atcelt Tēmas Piespraušanu"
+        #pin_globally: "Globāli Piespraust Tēmu"
         unarchive: "Atarhīvēt Tēmu"
         archive: "Arhivēt Tēmu"
         invisible: "Padarīt Neredzamu"
         visible: "Padarīt Redzamu"
         reset_read: "Atiestātīt Izlasītos"
         multi_select: "Izvēlies Ierakstus"
+
+      features:
+        make_banner: "Banner Tēma"
+        remove_banner: "Izņemt Banera tēmu"
+        pin: "Piespraust Tēmu"
+        unpin: "Atcelt Tēmas Piespraušanu"
+        pin_globally: "Globāli Piespraust Tēmu"
 
       reply:
         title: 'Atbildēt'
