@@ -123,7 +123,7 @@ lv:
     show_more: "parādīt vairāk"
     show_help: "palīdzība"
     links: "Adreses"
-    links_lowercase: "adreses"
+    links_lowercase:
       one: "link"
       other: "links"
     faq: "FAQ"
@@ -1478,7 +1478,7 @@ lv:
     views_long: "šī tēma ir apskatīta {{number}} reizes"
     activity: "Aktivitāte"
     likes: "Plusiņi"
-    likes_lowercase: "plusiņi"
+    likes_lowercase:
       one: "user"
       other: "users"
     likes_long: "šajā tēmā ir {{number}} plusiņu"
