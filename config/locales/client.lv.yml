@@ -124,6 +124,8 @@ lv:
     show_help: "palīdzība"
     links: "Adreses"
     links_lowercase: "adreses"
+      one: "link"
+      other: "links"
     faq: "FAQ"
     guidelines: "Guidelines"
     privacy_policy: "Privacy Policy"
@@ -209,6 +211,9 @@ lv:
     revert: "Revert"
     failed: "Failed"
 
+    switch_to_anon: "Anonymous Mode"
+    switch_from_anon: "Exit Anonymous Mode"
+
     banner:
       close: "Noņemt šo baneri."
 
@@ -217,6 +222,21 @@ lv:
       title:
         search: "Meklē tēmu pēc vārda, url vai id:"
         placeholder: "Ievadi šeit tēmas virsrakstu"
+
+    queue:
+      topic: "Topic:"
+      approve: 'Approve'
+      reject: 'Reject'
+      title: "Needs Approval"
+      none: "There are no posts to review."
+      edit: "Edit"
+      cancel: "Cancel"
+      confirm: "Save Changes"
+
+      approval:
+        title: "Post Needs Approval"
+        description: "We've received your new post but it needs to be approved by a moderator before it will appear. Please be patient."
+        ok: "OK"
 
     user_action:
       user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> posted <a href='{{topicUrl}}'>the topic</a>"
@@ -283,6 +303,7 @@ lv:
       "11": "Labojumi"
       "12": "Nosūtītie priekšmeti"
       "13": "Inbox"
+      "14": "Pending"
 
     categories:
       all: "Visas Kategorijas"
@@ -706,6 +727,7 @@ lv:
         title_too_long: "Title can't be more than {{max}} characters"
         post_missing: "Post can't be empty"
         post_length: "Post must be at least {{min}} characters"
+        try_like: 'Have you tried the <i class="fa fa-heart"></i> button?'
         category_missing: "You must choose a category"
 
       save_edit: "Save Edit"
@@ -981,25 +1003,20 @@ lv:
         open: "Atvērt Tēmu"
         close: "Aizvērt Tēmu"
         auto_close: "Automātiskā Aizvēršana"
-        #make_banner: "Banner Tēma"
-        #remove_banner: "Izņemt Banera tēmu"
-        pin: "Piespraust Tēmu"
-        #unpin: "Atcelt Tēmas Piespraušanu"
-        #pin_globally: "Globāli Piespraust Tēmu"
-        unarchive: "Atarhīvēt Tēmu"
-        archive: "Arhivēt Tēmu"
-        invisible: "Padarīt Neredzamu"
-        visible: "Padarīt Redzamu"
-        reset_read: "Atiestātīt Izlasītos"
-        multi_select: "Izvēlies Ierakstus"
+        multi_select: "Select Posts…"
+        auto_close: "Automātiskā Aizvēršana
+        unpin: "Un-Pin Topic…"
+        unarchive: "Unarchive Topic"
+        archive: "Archive Topic"
+        invisible: "Make Unlisted"
+        visible: "Make Listed"
+        reset_read: "Reset Read Data"
 
-      features:
-        make_banner: "Banner Tēma"
-        remove_banner: "Izņemt Banera tēmu"
+      feature:
         pin: "Piespraust Tēmu"
         unpin: "Atcelt Tēmas Piespraušanu"
         pin_globally: "Globāli Piespraust Tēmu"
-
+        
       reply:
         title: 'Atbildēt'
         help: 'begin composing a reply to this topic'
@@ -1057,15 +1074,19 @@ lv:
 
       invite_reply:
         title: 'Invite'
+        username_placeholder: "username"
         action: 'Send Invite'
         help: 'invite others to this topic via email or notifications'
         to_forum: "We'll send a brief email allowing your friend to immediately join by clicking a link, no login required."
+        sso_enabled: "Enter the username of the person you'd like to invite to this topic."
         to_topic_blank: "Enter the username or email address of the person you'd like to invite to this topic."
         to_topic_email: "You've entered an email address. We'll email an invitation that allows your friend to immediately reply to this topic."
         to_topic_username: "You've entered a username. We'll send a notification to that user with a link inviting them to this topic."
+        to_username: "Enter the username of the person you'd like to invite. We'll send a notification to that user with a link inviting them to this topic."
 
         email_placeholder: 'name@example.com'
-        success: "We mailed out an invitation to <b>{{emailOrUsername}}</b>. We'll notify you when the invitation is redeemed. Check the invitations tab on your user page to keep track of your invites."
+        success_email: "We mailed out an invitation to <b>{{emailOrUsername}}</b>. We'll notify you when the invitation is redeemed. Check the invitations tab on your user page to keep track of your invites."
+        success_username: "We've invited that user to participate in this topic."
         error: "Sorry, we couldn't invite that person. Perhaps they have already been invited? (Invites are rate limited)"
 
       login_reply: 'Log In to Reply'
@@ -1455,6 +1476,8 @@ lv:
     activity: "Aktivitāte"
     likes: "Plusiņi"
     likes_lowercase: "plusiņi"
+      one: "user"
+      other: "users"
     likes_long: "šajā tēmā ir {{number}} plusiņu"
     users: "Lietotāji"
     users_lowercase: "lietotāji"
@@ -1523,6 +1546,8 @@ lv:
       top:
         title: "Labākās"
         help: "the most active topics in the last year, month, week or day"
+        all:
+          title: "All Time"
         yearly:
           title: "Gada Labākie"
         monthly:
@@ -1692,6 +1717,9 @@ lv:
         automatic: "Automatic"
         automatic_membership_email_domains: "Users who register with an email domain that exactly matches one in this list will be automatically added to this group:"
         automatic_membership_retroactive: "Apply the same email domain rule to add existing registered users"
+        default_title: "Default title for all users in this group"
+        primary_group: "Automatically set as primary group"
+
 
       api:
         generate_master: "Generate Master API Key"
