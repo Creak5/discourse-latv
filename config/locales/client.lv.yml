@@ -623,6 +623,10 @@ lv:
     unmute: Unmute
     last_post: Last post
     last_post_lowercase: last post
+    last_reply_lowercase: last reply
+    replies_lowercase:
+      one: reply
+      other: replies
 
     summary:
       enabled_description: "You're viewing a summary of this topic: the most interesting posts as determined by the community."
