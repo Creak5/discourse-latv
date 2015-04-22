@@ -1004,7 +1004,8 @@ lv:
         close: "Aizvērt Tēmu"
         auto_close: "Automātiskā Aizvēršana"
         multi_select: "Select Posts…"
-        auto_close: "Automātiskā Aizvēršana
+        auto_close: "Automātiskā Aizvēršana"
+        pin: "Pin Topic…"
         unpin: "Un-Pin Topic…"
         unarchive: "Unarchive Topic"
         archive: "Archive Topic"
@@ -1016,6 +1017,8 @@ lv:
         pin: "Piespraust Tēmu"
         unpin: "Atcelt Tēmas Piespraušanu"
         pin_globally: "Globāli Piespraust Tēmu"
+        make_banner: "Banner Topic"
+        remove_banner: "Remove Banner Topic"
         
       reply:
         title: 'Atbildēt'
