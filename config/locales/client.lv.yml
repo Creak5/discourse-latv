@@ -118,15 +118,15 @@ lv:
     age: "Vecums"
     last_post: "Pēdējais ieraksts"
     joined: "Pievienojies"
-    admin_title: "Administrātoru panelis"
-    flags_title: "Flags"
+    admin_title: "Administratoru panelis"
+    flags_title: "Ziņojumi"
     show_more: "parādīt vairāk"
     show_help: "palīdzība"
     links: "Adreses"
     links_lowercase:
       one: "adrese"
       other: "adreses"
-    faq: "FAQ"
+    faq: "BUJ"
     guidelines: "Guidelines"
     privacy_policy: "Privacy Policy"
     privacy: "Privacy"
@@ -391,7 +391,7 @@ lv:
       staff_counters:
         flags_given: "helpful flags"
         flagged_posts: "flagged posts"
-        deleted_posts: "deleted posts"
+        deleted_posts: "dzēsti ieraksti"
         suspensions: "suspensions"
         warnings_received: "warnings"
 
@@ -424,14 +424,14 @@ lv:
         success: "We've sent an email to that address. Please follow the confirmation instructions."
 
       change_avatar:
-        title: "Change your profile picture"
+        title: "Mainīt savu lietotāja avataru"
         gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, based on"
         refresh_gravatar_title: "Refresh your Gravatar"
         letter_based: "System assigned profile picture"
         uploaded_avatar: "Custom picture"
         uploaded_avatar_empty: "Add a custom picture"
         upload_title: "Upload your picture"
-        upload_picture: "Upload Picture"
+        upload_picture: "Augšupielādēt bildi"
         image_is_not_a_square: "Warning: we've cropped your image; width and height were not equal."
 
       change_profile_background:
@@ -481,17 +481,17 @@ lv:
       password_confirmation:
         title: "Password Again"
 
-      last_posted: "Last Post"
+      last_posted: "Pēdējais ieraksts"
       last_emailed: "Last Emailed"
-      last_seen: "Seen"
-      created: "Joined"
-      log_out: "Log Out"
-      location: "Location"
+      last_seen: "Pēdējo reizi redzēts"
+      created: "Pievienojies"
+      log_out: "Iziet"
+      location: "Atrašanās vieta"
       card_badge:
         title: "User Card Badge"
 
       website: "Web Site"
-      email_settings: "Email"
+      email_settings: "Epasts"
       email_digests:
         title: "When I don't visit here, send an email digest of what's new:"
         daily: "daily"
@@ -528,7 +528,7 @@ lv:
           other: "after {{count}} minutes"
       invited:
         search: "type to search invites..."
-        title: "Invites"
+        title: "Uzaicinājumi"
         user: "Invited User"
         none: "You haven't invited anyone here yet."
         truncated: "Showing the first {{count}} invites."
@@ -573,7 +573,7 @@ lv:
         title: "Title"
 
       filters:
-        all: "All"
+        all: "Visi"
 
       stream:
         posted_by: "Posted by"
@@ -625,8 +625,8 @@ lv:
     last_post_lowercase: last post
     last_reply_lowercase: last reply
     replies_lowercase:
-      one: reply
-      other: replies
+      one: atbilde
+      other: atbildes
 
     summary:
       enabled_description: "You're viewing a summary of this topic: the most interesting posts as determined by the community."
@@ -734,7 +734,7 @@ lv:
         try_like: 'Have you tried the <i class="fa fa-heart"></i> button?'
         category_missing: "You must choose a category"
 
-      save_edit: "Save Edit"
+      save_edit: "Saglabāt labojumu"
       reply_original: "Atbilde oriģinālajai tēmai"
       reply_here: "Atbildēt Šeit"
       reply: "Atbildēt"
@@ -745,7 +745,7 @@ lv:
 
       users_placeholder: "Pievienot lietotāju"
       title_placeholder: "What is this discussion about in one brief sentence?"
-      edit_reason_placeholder: "why are you editing?"
+      edit_reason_placeholder: "Labojuma iemesls?"
       show_edit_reason: "(add edit reason)"
       reply_placeholder: "Type here. Use Markdown or BBCode to format. Drag or paste an image to upload it."
       view_new_post: "View your new post."
@@ -828,9 +828,9 @@ lv:
       image_link: "link your image will point to"
 
     search:
-      title: "search topics, posts, users, or categories"
-      no_results: "No results found."
-      searching: "Searching ..."
+      title: "meklēt tēmas, ierakstus, lieotājus, vai kategorijas"
+      no_results: "Neko neatrada."
+      searching: "Meklē ..."
       post_format: "#{{post_number}} by {{username}}"
 
       context:
@@ -952,10 +952,10 @@ lv:
 
       progress:
         title: topic progress
-        go_top: "top"
-        go_bottom: "bottom"
-        go: "go"
-        jump_bottom_with_number: "jump to post %{post_number}"
+        go_top: "uz augšu"
+        go_bottom: "uz apakšu"
+        go: "aiziet"
+        jump_bottom_with_number: "pārlekt uz ierakstu %{post_number}"
         total: total posts
         current: current post
         position: "post %{current} of %{total}"
@@ -1037,9 +1037,9 @@ lv:
         help: 'share a link to this topic'
 
       flag_topic:
-        title: 'Flag'
+        title: 'Ziņot'
         help: 'privately flag this topic for attention or send a private notification about it'
-        success_message: 'You successfully flagged this topic.'
+        success_message: 'Veiksmīgi ziņots par šo rakstu.'
 
       feature_topic:
         title: "Feature this topic"
@@ -1607,7 +1607,7 @@ lv:
         blocked: 'Blocked:'
         suspended: 'Suspended:'
         private_messages_short: "Msgs"
-        private_messages_title: "Messages"
+        private_messages_title: "Vēstules"
         space_free: "{{size}} free"
         uploads: "uploads"
         backups: "backups"
@@ -1637,9 +1637,9 @@ lv:
         by: "by"
 
       flags:
-        title: "Flags"
-        old: "Old"
-        active: "Active"
+        title: "Ziņojumi"
+        old: "Vecie"
+        active: "Aktīvie"
 
         agree: "Agree"
         agree_title: "Confirm this flag as valid and correct"
