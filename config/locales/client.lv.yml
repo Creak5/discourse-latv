@@ -105,8 +105,6 @@ lv:
 
     emails_are_disabled: "All outgoing email has been globally disabled by an administrator. No email notifications of any kind will be sent."
 
-    s3_deprecation_warning: "WARNING! Amazon S3 will soon be deprecated for image/attachment storage. Please, follow the <a href='https://meta.discourse.org/t/warning-amazon-s3-is-deprecated-in-1-3-for-image-attachment-storage/26594'>instructions</a> to migrate to local storage."
-
     edit: 'edit the title and category of this topic'
     not_implemented: "That feature hasn't been implemented yet, sorry!"
     no_value: "No"
@@ -148,6 +146,7 @@ lv:
     character_count:
       one: "{{count}} simbols"
       other: "{{count}} simboli"
+	  
     suggested_topics:
       title: "Ieteicamās tēmas"
 
@@ -187,12 +186,15 @@ lv:
     topic_count_latest:
       one: "{{count}} jauna vai papildināta tēma."
       other: "{{count}} jaunas vai papildinātas tēmas."
+	  
     topic_count_unread:
       one: "{{count}} nelasīta tēma."
       other: "{{count}} nelasītas tēmas."
+	  
     topic_count_new:
       one: "{{count}} jauna tēma."
       other: "{{count}} jaunas tēmas."
+	  
     click_to_show: "Spied lai apskatītu."
     preview: "priekšskats"
     cancel: "atcelt"
@@ -227,15 +229,25 @@ lv:
       topic: "Topic:"
       approve: 'Approve'
       reject: 'Reject'
+      delete_user: 'Delete User'
       title: "Needs Approval"
       none: "There are no posts to review."
       edit: "Edit"
       cancel: "Cancel"
+      view_pending: "view pending posts"
+      has_pending_posts:
+        one: "This topic has <b>1</b> post awaiting approval"
+        many: "This topic has <b>{{count}}</b> posts awaiting approval"
+
       confirm: "Save Changes"
+      delete_prompt: "Are you sure you want to delete <b>%{username}</b>? This will remove all of their posts and block their email and ip address."
 
       approval:
         title: "Post Needs Approval"
         description: "We've received your new post but it needs to be approved by a moderator before it will appear. Please be patient."
+        pending_posts:
+          one: "You have <strong>1</strong> post pending."
+          other: "You have <strong>{{count}}</strong> posts pending."
         ok: "OK"
 
     user_action:
@@ -275,6 +287,7 @@ lv:
       total_rows:
         one: "1 lietotājs"
         other: "%{count} lietotāji"
+		
     groups:
       visible: "Grupa redzama visiem lietotājie."
       title:
@@ -324,6 +337,7 @@ lv:
       post_stat_sentence:
         one: "%{count} jauns ieraksts pagājušajā %{unit}."
         other: "%{count} jauni ieraksti pagājušajā %{unit}."
+		
     ip_lookup:
       title: IP Address Lookup
       hostname: Hostname
@@ -409,6 +423,7 @@ lv:
 
       change_about:
         title: "Izmainīt 'Par mani'"
+		error: "There was an error changing ths value."
 
       change_username:
         title: "Mainīt Lietotājvārdu"
@@ -426,13 +441,15 @@ lv:
       change_avatar:
         title: "Mainīt savu lietotāja avataru"
         gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, based on"
-        refresh_gravatar_title: "Refresh your Gravatar"
+        gravatar_title: "Change your avatar on Gravatar's website"
+		refresh_gravatar_title: "Refresh your Gravatar"
         letter_based: "System assigned profile picture"
         uploaded_avatar: "Custom picture"
         uploaded_avatar_empty: "Add a custom picture"
         upload_title: "Upload your picture"
         upload_picture: "Augšupielādēt bildi"
         image_is_not_a_square: "Warning: we've cropped your image; width and height were not equal."
+		cache_notice: "You've successfully changed your avatar but it might take some time to appear due to browser caching."
 
       change_profile_background:
         title: "Profila Fons"
@@ -516,7 +533,8 @@ lv:
         after_n_weeks:
           one: "created in the last week"
           other: "created in the last {{count}} weeks"
-      auto_track_topics: "Automatically track topics I enter"
+      
+	  auto_track_topics: "Automatically track topics I enter"
       auto_track_options:
         never: "never"
         always: "always"
@@ -526,6 +544,7 @@ lv:
         after_n_minutes:
           one: "after 1 minute"
           other: "after {{count}} minutes"
+		  
       invited:
         search: "type to search invites..."
         title: "Uzaicinājumi"
@@ -622,7 +641,6 @@ lv:
     mute: Mute
     unmute: Unmute
     last_post: Last post
-    last_post_lowercase: last post
     last_reply_lowercase: last reply
     replies_lowercase:
       one: atbilde
@@ -812,6 +830,14 @@ lv:
       moved_post: "<i title='moved post' class='fa fa-sign-out'></i><p><span>{{username}}</span> moved {{description}}</p>"
       linked: "<i title='linked post' class='fa fa-arrow-left'></i><p><span>{{username}}</span> {{description}}</p>"
       granted_badge: "<i title='badge granted' class='fa fa-certificate'></i><p>Earned '{{description}}'</p>"
+	  
+      popup:
+        mentioned: '{{username}} mentioned you in "{{topic}}" - {{site_title}}'
+        quoted: '{{username}} quoted you in "{{topic}}" - {{site_title}}'
+        replied: '{{username}} replied to you in "{{topic}}" - {{site_title}}'
+        posted: '{{username}} posted in "{{topic}}" - {{site_title}}'
+        private_message: '{{username}} sent you a private message in "{{topic}}" - {{site_title}}'
+        linked: '{{username}} linked to your post from "{{topic}}" - {{site_title}}'
 
     upload_selector:
       title: "Add an image"
